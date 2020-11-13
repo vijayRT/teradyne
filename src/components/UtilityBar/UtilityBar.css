@@ -1,0 +1,22 @@
+.utility-bar {
+    height: 30px;
+    background: linear-gradient(90deg, rgba(33,62,124,1) 0%, rgba(54,175,144,1) 100%);
+    padding-top: 5px;
+    font-size: 13px;
+}
+.utility-bar-buttons-container {
+    width: 100%;
+}
+
+@media (min-width: 1200px) { 
+    .utility-bar-buttons-container {
+        width: 75%;
+    }
+}
+a.utility-button {
+    background-color: transparent;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+
+.header-container {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+@media (min-width: 1200px) { 
+    .header-container {
+        width: 85%;
+    }
+}
+.header {
+    height: 66px;
+}
+
+.header-link {
+    color: #2e4b8a;
+}
+
+.dropdown-toggle:after { content: none !important}
+.navbar .has-megamenu{position:static!important;}
+.dropdown-menu{left:-10%; right:0; width:101vw;}
