@@ -1,13 +1,60 @@
 .megamenu-container {
-    width: 83%;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 0px;
+    color: rgb(34, 34, 34);
 }
-
 .title {
     height: 80px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
+    font-family: "Nunito Sans";
 }
 
 .product {
     height: 40px;
+}
+
+.product-name {
+    color: rgb(33, 82, 153);
+}
+
+.product-name:hover, .product-name:focus {
+    font-weight: bolder;
+    text-decoration-line: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #40c8f4;
+}
+
+.product-content {
+    background-color: #f6f6f6;
+}
+
+.product-snippet-title {
+    font: "Nunito Sans";
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+.card-title {
+    font: "Nunito Sans";
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+.white-paper {
+    color: purple;
+    font-size: 15px;
+}
+.white-paper-link {
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+}
+
+.white-paper-link:hover, .white-paper-link:focus {
+    color: rgb(71, 71, 71);
+    text-decoration-line: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #81bc00;
 }

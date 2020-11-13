@@ -1,28 +1,39 @@
 @font-face {
-  font-family: "Gotham Narrow";
-  font-weight: 400;
-  src: url(./fonts/GothamNarrow-Light.otf) format("opentype");
+    font-family: "Gotham Narrow";
+    font-weight: 400;
+    src: url(./fonts/GothamNarrow-Light.otf) format("opentype");
 }
 
 @font-face {
-  font-family: "Gotham Narrow";
-  font-weight: 700;
-  src: url(./fonts/GothamNarrow-Bold.otf) format("opentype");
+    font-family: "Gotham Narrow";
+    font-weight: 700;
+    src: url(./fonts/GothamNarrow-Bold.otf) format("opentype");
 }
 
 @font-face {
-  font-family: "Gotham Narrow";
-  font-weight: 900;
-  src: url(./fonts/GothamNarrow-Black.otf) format("opentype");
+    font-family: "Gotham Narrow";
+    font-weight: 900;
+    src: url(./fonts/GothamNarrow-Black.otf) format("opentype");
 }
 
+@font-face {
+    font-family: "Gotham";
+    src: url(./fonts/Gotham-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham";
+    font-weight: 900;
+    src: url(./fonts/Gotham-Ultra.ttf) format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 body {
-  font-family: "Gotham Narrow";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Gotham Narrow";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
