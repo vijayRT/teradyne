@@ -11,26 +11,26 @@ function UtilityBar() : JSX.Element {
             <Row className="justify-content-end utility-bar-buttons-container">
                 <Col className="px-0" xs={3} lg={1}>
                     <Container fluid>
-                        <Row>
-                            <Col className="px-0" xs={2}><img src={eKnowledgeLogo} /></Col>
-                            <Col className="px-0" xs={10}><a href="#eKnowledge" className="utility-button" title="eKnowledge">eKnowledge</a></Col>
+                        <Row className="utility-button-container">
+                            <Col className="px-0" xs={1}><img src={eKnowledgeLogo} /></Col>
+                            <Col className="px-0" xs={6}><a href="#eKnowledge" className="utility-button" title="eKnowledge">eKnowledge</a></Col>
                         </Row>
                     </Container>
                 </Col> 
                 <Col className="px-0" xs={3} lg={1}>
                     <Container fluid>
-                        <Row>
-                            <Col className="px-0" xs={2}><FontAwesomeIcon color="white" icon={faGlobeAmericas} /></Col>
-                            <Col className="px-0" xs={7}><a className="utility-button" title="Language">Language </a></Col>
-                            <Col className="px-0" xs={3}><FontAwesomeIcon color="white" icon={faChevronDown} /></Col>
+                        <Row className="utility-button-container">
+                            <Col className="px-0" xs={1}><FontAwesomeIcon color="white" icon={faGlobeAmericas} /></Col>
+                            <Col className="px-0" xs={6}><a className="utility-button" title="Language">Language </a></Col>
+                            <Col className="px-0" xs={1}><FontAwesomeIcon color="white" icon={faChevronDown} /></Col>
                         </Row>
                     </Container>
                 </Col> 
                 <Col className="px-0" xs={3} lg={1}>
                     <Container fluid>
-                        <Row>
-                            <Col className="px-0" xs={2}><FontAwesomeIcon color="white" icon={faSearch} /></Col>
-                            <Col className="px-0" xs={10}><a className="utility-button" title="Search">Search</a></Col>
+                        <Row className="utility-button-container">
+                            <Col className="px-0" xs={1}><FontAwesomeIcon color="white" icon={faSearch} /></Col>
+                            <Col className="px-0" xs={6}><a className="utility-button" title="Search">Search</a></Col>
                         </Row>
                     </Container>
                 </Col>

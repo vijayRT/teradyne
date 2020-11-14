@@ -27,11 +27,13 @@
     src: url(./fonts/Gotham-Ultra.ttf) format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
 body {
     font-family: "Gotham Narrow";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 code {

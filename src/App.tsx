@@ -6,17 +6,18 @@ import "./App.css"
 import UtilityBar from "./components/UtilityBar"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Industries from "./components/Industries"
+import Applications from "./components/Applications"
 function App() {
     return (
         <div className="App">
             <UtilityBar />
             <Header />
             <Hero />
-            {/* 
-            <BrandsDrawer />
+            {/* <BrandsDrawer /> */}
             <Industries />
             <Applications />
-            <NewsAndEvents />
+            {/* <NewsAndEvents />
             <Careers />
             <Invest />
             <Footer /> */}

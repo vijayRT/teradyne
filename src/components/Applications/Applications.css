@@ -1,0 +1,12 @@
+.applications-container {
+    padding-top: 5em;
+    background-color: #333333;
+    min-height: 75vh;
+    padding-bottom: 2em;
+    color: rgb(253, 253, 253);
+    font-family: "Nunito Sans";
+}
+
+.applications-title {
+    font-weight: bold;
+}

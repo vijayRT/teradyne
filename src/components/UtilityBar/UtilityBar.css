@@ -6,12 +6,17 @@
 }
 .utility-bar-buttons-container {
     width: 100%;
+    gap: 2em;
 }
 
 @media (min-width: 1200px) { 
     .utility-bar-buttons-container {
         width: 90%;
+        gap: 1em;
     }
+}
+.utility-button-container {
+    gap: 1em;
 }
 a.utility-button {
     background-color: transparent;

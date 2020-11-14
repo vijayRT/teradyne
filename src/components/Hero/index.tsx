@@ -5,8 +5,8 @@ import "./Hero.css"
 function Hero() {
     return (
         <div className="d-flex hero">
-            <Row className="hero-text-container align-content-start px-5">
-                <Col lg={5}>
+            <Row className="hero-text-container align-content-center px-5">
+                <Col lg={6}>
                     <div>
                         <h1 className="hero-text">Creating the next generation of technology through advanced test solutions and collaborative robotics.</h1>
                     </div>

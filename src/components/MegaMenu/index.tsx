@@ -9,7 +9,7 @@ interface ComponentWithTitleProp {
 
 function ProductSnippet({title}: ComponentWithTitleProp): JSX.Element {
     return (
-        <Col className="my-3" xs={12} lg={6}>
+        <Col className="product-snippet" xs={12} lg={6}>
             <div className="product-snippet-title">{title}</div>
             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id libero.</div>
         </Col>
@@ -31,7 +31,7 @@ function MegaMenu({title}: ComponentWithTitleProp): JSX.Element {
                     <div className="product"><a href ="" onClick={(e) => e.preventDefault()} className="product-name">Wireless Testing</a></div>
                     <div className="product"><a href ="" onClick={(e) => e.preventDefault()} className="product-name">Defense &amp; Aerospace</a></div>
                 </Col>
-                <Col lg={6} className="product-content px-5 py-5">
+                <Col lg={6} className="d-lg-flex product-content px-5 py-5">
                     <Row className="flex-lg-wrap">
                         <ProductSnippet title="Test Station Handler" />
                         <ProductSnippet title="Test Station LX / LX2" />

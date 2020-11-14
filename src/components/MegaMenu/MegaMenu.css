@@ -29,6 +29,10 @@
 
 .product-content {
     background-color: #f6f6f6;
+    gap: 3em;
+}
+
+.product-snippet {
 }
 
 .product-snippet-title {

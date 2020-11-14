@@ -1,12 +1,12 @@
 .hero {
+    height: 100vh;
     background-image: url("./background.png");
 }
 
 @media (min-width: 1200px) {
     .hero {
         height: 836px;
-        padding-top: 200px;
-        padding-left: 80px;
+        padding-left: 100px;
     }
 }
 
@@ -16,16 +16,18 @@
 
 .hero-text {
     color: #fff;
+    font-family: "Nunito Sans";
     font-weight: bold;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    font-size: 3em;
 }
 
 .learn-more-button {
-    background-color: yellowgreen;
+    background-color: #81bc00;
     font-weight: bold;
     font-size: smaller;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border: none;
 }

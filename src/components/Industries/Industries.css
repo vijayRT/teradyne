@@ -1,0 +1,54 @@
+.industries-container {
+    margin-top: 5em;
+    min-height: 100vh;
+    padding-bottom: 2em;
+    color: rgb(84, 88, 90);
+    font-family: "Nunito Sans";
+    gap: 5em;
+}
+
+.expertise {
+    font-weight: 700;
+}
+.carousel-container {
+    gap: 2em;
+}
+.industry-image {
+    border: 1px;
+    border-radius: 2%;
+    box-shadow: 10px 11px 40px -3px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 10px 11px 40px -3px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 10px 11px 40px -3px rgba(0, 0, 0, 0.27);
+}
+
+.industrial-automation-content {
+    gap: 1rem;
+}
+.industrial-automation-text {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.explore-button {
+    background-color: #81bc00;
+    width: 85%;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    font-size: small;
+    padding: 20px;
+    border: none;
+}
+.carousel-dots {
+    gap: calc(5px + 0.5em);
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dot.green {
+    background-color: #7eb800;
+}
