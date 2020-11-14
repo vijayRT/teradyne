@@ -1,14 +1,32 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
-
+import IndustrialAutomationLogo from "./industrial-automation.svg"
+import SemiconductorLogo from "./circuit.svg"
+import WirelessLogo from "./wireless.svg"
+import StorageLogo from "./storage.svg"
+import ChipLogo from "./microchip.svg"
+import SystemLevelLogo from "./system-level.svg"
+import DefenseAndAerospaceLogo from "./defense-aerospace.svg"
 import "./Applications.css"
 function Applications(): JSX.Element {
+    const applicationLogos = [IndustrialAutomationLogo, SemiconductorLogo, WirelessLogo, StorageLogo, ChipLogo, SystemLevelLogo, DefenseAndAerospaceLogo]
+    const applicationNames = ["Industrial Automation", "Semiconductor Testing", "Wireless Testing", "Storage Testing", "Printed Circuit Board Testing", "System Level Testing", "Defense & Aerospace"]
     return (
-        <Container fluid className="d-flex justify-content-center applications-container">
-            <Row className="d-flex w-75">
-                <Col className="d-flex justify-content-center">
+        <Container fluid className="applications-section-container">
+            <Row>
+                <Col>
                     <div className="text-center"><h1 className="applications-title">Find us by application</h1></div>
-                    <div className="text-center my-3"><h5>From life-saving healthcare and automotive safety to the consumer tech we use every day – the world relies on Teradyne to make sure critical electronics work, every single time.</h5></div>
+                    <div className="applications-subtitle text-center my-3 mx-auto"><h5>From life-saving healthcare and automotive safety to the consumer tech we use every day – the world relies on Teradyne to make sure critical electronics work, every single time.</h5></div>
+                    <Row className="d-flex flex-wrap flex-lg-nowrap justify-content-center application-logos">
+                        {applicationLogos.map((applicationLogo, index) => {
+                            return (
+                                <Col className="d-flex flex-column align-end application-logo-name-container" key={index} xs={4} lg={1}>
+                                    <img className="h-50" src={applicationLogo} />
+                                    <div className="d-flex justify-content-center text-center">{applicationNames[index]}</div>
+                                </Col>
+                            )
+                        })}
+                    </Row>
                 </Col>
             </Row>
             

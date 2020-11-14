@@ -1,9 +1,16 @@
 .megamenu-container {
     width: 100%;
-    padding-left: 120px;
-    padding-right: 0px;
     color: rgb(34, 34, 34);
 }
+
+@media (min-width: 992px) {
+    .megamenu-container {
+        width: 100%;
+        padding-left: 120px;
+        padding-right: 0px;
+    }
+}
+
 .title {
     height: 80px;
     font-size: 40px;
@@ -32,8 +39,7 @@
     gap: 3em;
 }
 
-.product-snippet {
-}
+.product-snippet {}
 
 .product-snippet-title {
     font: "Nunito Sans";
@@ -46,10 +52,12 @@
     font-weight: bold;
     color: rgb(41, 41, 41);
 }
+
 .white-paper {
     color: purple;
     font-size: 15px;
 }
+
 .white-paper-link {
     color: rgb(71, 71, 71);
     font-size: 20px;

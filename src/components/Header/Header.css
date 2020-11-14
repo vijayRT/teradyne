@@ -2,13 +2,30 @@
     width: 100%;
     padding-left: 8px;
     padding-right: 8px;
+    z-index: 1000 !important
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .header-container {
         width: 100%;
         padding-left: 150px;
         padding-right: 150px;
+    }
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        border: none;
+        width: 100%;
+        left: 0;
+    }
+    .dropdown-menu.show {
+        padding: 0px;
+    }
+    .dropdown-item-text {
+        padding: 0px;
     }
 }
 
@@ -22,24 +39,4 @@
 
 .dropdown-toggle:after {
     content: none !important
-}
-
-.navbar .has-megamenu {
-    position: static !important;
-}
-
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    border: none;
-    width: 100%;
-    left: 0;
-}
-
-.dropdown-menu.show {
-    padding: 0px;
-}
-
-.dropdown-item-text {
-    padding: 0px;
 }

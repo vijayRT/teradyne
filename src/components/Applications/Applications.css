@@ -1,7 +1,7 @@
-.applications-container {
+.applications-section-container {
     padding-top: 5em;
     background-color: #333333;
-    min-height: 75vh;
+    min-height: 70vh;
     padding-bottom: 2em;
     color: rgb(253, 253, 253);
     font-family: "Nunito Sans";
@@ -9,4 +9,19 @@
 
 .applications-title {
     font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .applications-subtitle {
+        width: 50%;
+    }
+}
+.application-logos {
+    margin-top: 8em;
+    gap: 4em;
+    font-weight: bold;
+}
+.application-logo-name-container {
+    gap: 2em;
+    font-size: larger;
 }
