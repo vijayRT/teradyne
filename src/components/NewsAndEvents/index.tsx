@@ -1,5 +1,3 @@
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import { Container, Row, Col, Button } from "react-bootstrap"
 import wedge from "./wedge.png"
