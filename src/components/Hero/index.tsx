@@ -1,8 +1,8 @@
 import React from "react"
-import { Button, Col, Container, Row } from "react-bootstrap"
+import { Button, Col, Row } from "react-bootstrap"
 
 import "./Hero.css"
-function Hero() {
+function Hero(): JSX.Element {
     return (
         <div className="d-flex hero">
             <Row className="hero-text-container align-content-center px-5">

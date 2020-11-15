@@ -8,7 +8,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Industries from "./components/Industries"
 import Applications from "./components/Applications"
-function App() {
+function App(): JSX.Element {
     return (
         <div className="App">
             <UtilityBar />
