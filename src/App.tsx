@@ -9,6 +9,8 @@ import Hero from "./components/Hero"
 import Industries from "./components/Industries"
 import Applications from "./components/Applications"
 import NewsAndEvents from "./components/NewsAndEvents"
+import Invest from "./components/Invest"
+import Footer from "./components/Footer"
 function App(): JSX.Element {
     return (
         <div className="App">
@@ -21,8 +23,8 @@ function App(): JSX.Element {
             <NewsAndEvents />
             
             {/* <Careers /> */}
-            {/* <Invest /> */}
-            {/* <Footer /> */}
+            <Invest />
+            <Footer />
         </div>
 
     )

@@ -16,17 +16,16 @@ function NewsAndEvents(): JSX.Element {
             <Row className="mt-5 flex-wrap flex-lg-nowrap align-items-center carousel-container">
                 <Col className="d-flex flex-column news-column" lg={9}>
                     {news.map((newsItem) => { return (
-                        <Row key={newsItem} className="flex-nowrap news-container">
-                            <Col xs={3}><h4 className="font-weight-bold"><img src={wedge} /> &nbsp; {newsItem}</h4></Col>
-                            <Col xs={8} className="d-flex flex-column flex-nowrap">
+                        <Row key={newsItem} className="flex-wrap flex-lg-nowrap news-container">
+                            <Col xs={12} lg={3}><h4 className="font-weight-bold"><img src={wedge} /> &nbsp; {newsItem}</h4></Col>
+                            <Col xs={12} lg={7} className="d-flex flex-column flex-nowrap">
                                 <Row><h5>Lorem Ipsum dolor sit dior tempor e amet, consectetur adipiscing magma en tuita</h5></Row>
                                 <Row>August 28, 2019  Lorem ipsum dolor sit amet, dior sem sed do... &nbsp;<a className="read-more-link" href="" onClick={(e) => e.preventDefault()} >Read More</a></Row>
-                            </Col>
+                            </Col>  
                         </Row>
                     )})}
                     <Row>
-                        <Col xs={3}></Col>
-                        <Col xs={9} className="px-0"><Button className="view-all-button" title="View All">VIEW ALL IN NEWSROOM</Button></Col>
+                        <Col lg={{span: 3, offset: 3}} className="px-0"><Button className="view-all-button" title="View All">VIEW ALL IN NEWSROOM</Button></Col>
                     </Row>
                 </Col>
                 <Col lg={3} className="d-flex flex-column py-5 px-5 flex-nowrap tugx-container">

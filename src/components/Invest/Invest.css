@@ -1,0 +1,39 @@
+.invest-container {
+    min-height: 90vh;
+    background: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(48, 48, 48);
+    gap: 6rem;
+}
+
+.invest-title {
+    font-weight: 500;
+    font-family: "Nunito Sans";
+}
+
+.contact-us-button {
+    background-color: white;
+    color: rgb(84, 88, 90);
+    font-family: "Nunito Sans";
+    font-size: small;
+    font-weight: bold;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.invest-number {
+    color: white;
+    font-size: 6em;
+    font-weight: bold;
+    font-family: "Nunito Sans";
+}
+
+.invest-text {
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    color: white;
+}
