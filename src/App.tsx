@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Industries from "./components/Industries"
 import Applications from "./components/Applications"
+import NewsAndEvents from "./components/NewsAndEvents"
 function App(): JSX.Element {
     return (
         <div className="App">
@@ -17,10 +18,11 @@ function App(): JSX.Element {
             {/* <BrandsDrawer /> */}
             <Industries />
             <Applications />
-            {/* <NewsAndEvents />
-            <Careers />
-            <Invest />
-            <Footer /> */}
+            <NewsAndEvents />
+            
+            {/* <Careers /> */}
+            {/* <Invest /> */}
+            {/* <Footer /> */}
         </div>
 
     )

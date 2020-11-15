@@ -1,0 +1,43 @@
+.news-and-events-container {
+    margin-top: 5em;
+    min-height: 100vh;
+    padding-bottom: 2em;
+    color: rgb(84, 88, 90);
+    font-family: "Nunito Sans";
+    gap: 5em;
+}
+
+.newsAndEventsTitle {
+    font-weight: 700;
+}
+
+.news-column {
+    gap: 3em;
+}
+
+.read-more-link {
+    color: rgb(71, 71, 71);
+}
+
+.read-more-link:hover, .read-more-link:focus {
+    color: rgb(71, 71, 71);
+    text-decoration-line: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #81bc00;
+}
+
+.view-all-button {
+    background-color: #81bc00;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    font-size: small;
+    padding: 20px;
+    border: none;
+}
+
+.tugx-container {
+    background: linear-gradient(172deg, rgba(10,175,225,1) 0%, rgba(82,180,128,1) 100%);
+    gap: 2em;
+    color: white;
+}
