@@ -1,11 +1,14 @@
 .hero {
     height: 100vh;
     background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 @media (min-width: 1200px) {
     .hero {
-        height: 836px;
+        height: 90vh;
         padding-left: 100px;
     }
 }
@@ -26,4 +29,31 @@
     padding-left: 30px;
     padding-right: 30px;
     border: none;
+}
+
+.brands-drawer {
+    position: absolute;
+    bottom: -4%;
+    border-radius: 10px;
+}
+
+.brands-accordion {
+    position: fixed;
+}
+.teradyne-companies {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: thin solid gray;
+}
+.teradyne-companies-text {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    color: #81bc00;
+}
+.view-companies {
+    padding: 0px;
+    font-family: "Nunito Sans";
+    color: #81bc00;
+    font-size: small;
+    font-weight: bold;
 }
