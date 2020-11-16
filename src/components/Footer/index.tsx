@@ -1,8 +1,11 @@
 import React from "react"
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Form, Row } from "react-bootstrap"
 import teradyneLogo from "../Header/TeradyneLogo.png"
-
+import tugxLogo from "./tugxlogo.png"
+import socialLogos from "./sociallogos.png"
+import twitterCareers from "./twittercareers.png"
 import "./Footer.css"
+
 function Footer(): JSX.Element {
     return (
         <Container fluid className="teradyne-footer px-5 py-5">
@@ -23,15 +26,34 @@ function Footer(): JSX.Element {
                     </Col>
                 </Col>
                 <Col xs={12} lg={6}>
-                    <Row>
+                    <Row className="align-items-center">
                         <Col className="subscribe-text" xs={12} lg={{span: 3, offset: 1}}>
                             Subscribe to our newsletter
                         </Col>
                         <Col xs={12} lg={7}>
-                            <input className="w-75 subscribe-input" type="email"></input>
+                            <Form>
+                                <Form.Control type="email" />
+                            </Form>
+                        </Col>
+                    </Row>
+                    <Row className="align-items-center my-5">
+                        <Col className="subscribe-text" xs={2} lg={{span: 2, offset: 4}}>
+                            <img src={tugxLogo} />
+                        </Col>
+                        <Col className="subscribe-text" xs={3} lg={2}>
+                            <img src={socialLogos} />
+                        </Col>
+                        <Col className="subscribe-text" xs={1} lg={{span: 1, offset: 1}}>
+                            <img src={twitterCareers} />
                         </Col>
                     </Row>
                 </Col>
+            </Row>
+            <Row className="px-0 mx-lg-5 mt-5">
+                <Col className="px-0" xs={5} lg={3}>© Teradyne Inc. 1994-2019. All rights reserved.</Col>
+                <Col xs={2}>Sitemap</Col>
+                <Col xs={2}>Terms of Use</Col>
+                <Col xs={3}>Privacy Statement</Col>
             </Row>
         </Container>
     )

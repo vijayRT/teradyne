@@ -57,3 +57,8 @@
     font-size: small;
     font-weight: bold;
 }
+
+.brands-accordion-contents {
+    background: linear-gradient( -270deg, rgb(38,104,178) 0%, rgb(37,60,131) 100%);
+    color: white;
+}

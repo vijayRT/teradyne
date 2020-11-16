@@ -41,3 +41,23 @@
     gap: 2em;
     color: white;
 }
+
+.join-teradyne-container {
+    position: absolute;
+    width: 75%;
+    background-color: white;
+    margin-top: 5rem;
+}
+
+.join-why-link, .join-why-link:hover, .join-why-link:focus {
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    text-decoration-line: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #81bc00;
+}
+
+.join-why-link:hover, .join-why-link:focus {
+    color: rgb(131, 131, 131);
+}

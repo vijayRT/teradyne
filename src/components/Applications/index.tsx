@@ -1,15 +1,8 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
-import IndustrialAutomationLogo from "./industrial-automation.svg"
-import SemiconductorLogo from "./circuit.svg"
-import WirelessLogo from "./wireless.svg"
-import StorageLogo from "./storage.svg"
-import ChipLogo from "./microchip.svg"
-import SystemLevelLogo from "./system-level.svg"
-import DefenseAndAerospaceLogo from "./defense-aerospace.svg"
+import applicationLogos from "./applicationLogos"
 import "./Applications.css"
 function Applications(): JSX.Element {
-    const applicationLogos = [IndustrialAutomationLogo, SemiconductorLogo, WirelessLogo, StorageLogo, ChipLogo, SystemLevelLogo, DefenseAndAerospaceLogo]
     const applicationNames = ["Industrial Automation", "Semiconductor Testing", "Wireless Testing", "Storage Testing", "Printed Circuit Board Testing", "System Level Testing", "Defense & Aerospace"]
     return (
         <Container fluid className="applications-section-container">

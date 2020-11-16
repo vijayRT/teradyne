@@ -12,6 +12,7 @@
 
 .subscribe-text {
     font-size: 0.9rem;
+    font-weight: bold;
 }
 
 a {
@@ -25,5 +26,5 @@ a {
 
 .subscribe-input {
     border-color: gray;
-    border-width: 1px;
+    border-width: 0.5px;
 }

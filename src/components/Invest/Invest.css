@@ -6,7 +6,12 @@
     color: rgb(48, 48, 48);
     gap: 6rem;
 }
-
+@media (min-width: 992px) {
+    .invest-title {
+        margin-top: 15rem;
+    }
+    
+}
 .invest-title {
     font-weight: 500;
     font-family: "Nunito Sans";

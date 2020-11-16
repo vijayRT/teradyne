@@ -17,7 +17,7 @@ function Header() : JSX.Element {
     return (
         <div className="d-lg-flex align-content-lg-center shadow justify-content-lg-center">
             <Navbar className="d-lg-flex header-container header" expand="lg">
-                <Navbar.Brand className="d-lg-flex"><img src={teradyneLogo} /></Navbar.Brand>
+                <Navbar.Brand className="d-lg-flex px-3 px-lg-0"><img src={teradyneLogo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onTouchEnd={hideDropdown}/>
                 <Navbar.Collapse className="d-lg-flex row-lg justify-content-lg-end" id="basic-navbar-nav">
                     <Nav className="bg-white">
