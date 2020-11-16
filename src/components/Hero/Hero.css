@@ -31,12 +31,17 @@
     border: none;
 }
 
-.brands-drawer {
-    position: absolute;
-    bottom: -4%;
-    border-radius: 10px;
+@media (min-width: 768px) {
+    .brands-drawer {
+        position: absolute;
+        bottom: -4%;
+        border-radius: 10px;
+    }
+    
 }
-
+.brands-drawer {
+    z-index: 3000;
+}
 .brands-accordion {
     position: fixed;
 }

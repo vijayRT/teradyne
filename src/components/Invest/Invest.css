@@ -6,9 +6,9 @@
     color: rgb(48, 48, 48);
     gap: 6rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .invest-title {
-        margin-top: 15rem;
+        margin-top: 25rem;
     }
     
 }

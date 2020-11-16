@@ -7,7 +7,7 @@ import "./Hero.css"
 
 function Hero(): JSX.Element {
     return (
-        <div className="d-flex hero justify-content-center">
+        <div className="d-flex flex-column flex-lg-row hero justify-content-center">
             <Row className="hero-text-container align-content-center px-5">
                 <Col lg={6}>
                     <div>
@@ -18,7 +18,7 @@ function Hero(): JSX.Element {
                     </div>
                 </Col>
             </Row>
-            <Accordion className="d-none d-lg-block brands-drawer bg-white shadow">
+            <Accordion className="d-flex mt-5 mt-lg-0 d-lg-block brands-drawer bg-white shadow">
                 <Card>
                     <Card.Header>
                         <Row className="flex-wrap">
@@ -39,9 +39,9 @@ function Hero(): JSX.Element {
                                 <Row className="justify-content-center">
                                     <div className="w-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh . Click to visit.</div>
                                 </Row>
-                                <Row className="w-75 d-flex justify-content-center mt-4 mx-auto">
+                                <Row className="w-75 d-flex flex-wrap justify-content-center mt-4 mx-auto">
                                     {brandLogos.map((logo, index) => {
-                                        return <Col className="justify-content-center align-items-center my-4" key={index} xs={3}><img className="d-flex mx-auto" src={logo} /></Col>
+                                        return <Col className="justify-content-center align-items-center my-4" key={index} xs={12} lg={3}><img className="d-flex mx-auto" src={logo} /></Col>
                                     })}
                                 </Row>
                             </Container>

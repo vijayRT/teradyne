@@ -51,10 +51,10 @@ function NewsAndEvents(): JSX.Element {
                 </Col>
             </Row>
             
-            <div className="d-none d-lg-block join-teradyne-container justify-content-center shadow">
+            <div className="d-flex d-lg-block join-teradyne-container justify-content-center shadow">
                 <Row>
-                    <Col className="h-100" lg={6}><img className="w-100" src={careers}></img></Col>
-                    <Col lg={6} className="my-auto px-5">
+                    <Col xs={12} lg={6}><img className="w-100" src={careers}></img></Col>
+                    <Col xs={12} lg={6} className="my-5 my-lg-auto px-5">
                         <h1 className="font-weight-bold">Join the Teradyne Team</h1>
                         <p>We make technology work everywhere. Allowing you to work from anywhere. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. </p>
                         <p><a href="" onClick={(e) => e.preventDefault} className="join-why-link">Why Work at Teradyne</a></p>

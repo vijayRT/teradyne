@@ -37,14 +37,21 @@
 }
 
 .tugx-container {
-    background: linear-gradient(172deg, rgba(10,175,225,1) 0%, rgba(82,180,128,1) 100%);
+    background: linear-gradient(172deg, rgba(10, 175, 225, 1) 0%, rgba(82, 180, 128, 1) 100%);
     gap: 2em;
     color: white;
 }
 
+@media (min-width: 768px) {
+    .join-teradyne-container {
+        position: absolute;
+        width: 75%;
+        background-color: white;
+        margin-top: 5rem;
+    }
+}
+
 .join-teradyne-container {
-    position: absolute;
-    width: 75%;
     background-color: white;
     margin-top: 5rem;
 }
