@@ -36,14 +36,14 @@ function Footer(): JSX.Element {
                             </Form>
                         </Col>
                     </Row>
-                    <Row className="align-items-center my-5">
-                        <Col className="subscribe-text" xs={2} lg={{span: 2, offset: 4}}>
+                    <Row className="align-items-center mt-5 flex-wrap">
+                        <Col xs={12} lg={{span: 2, offset: 4}}>
                             <img src={tugxLogo} />
                         </Col>
-                        <Col className="subscribe-text" xs={3} lg={2}>
+                        <Col className="mt-4 my-lg-0" xs={12} lg={2}>
                             <img src={socialLogos} />
                         </Col>
-                        <Col className="subscribe-text" xs={1} lg={{span: 1, offset: 1}}>
+                        <Col className="mt-4 my-lg-0" xs={12} lg={{span: 1, offset: 1}}>
                             <img src={twitterCareers} />
                         </Col>
                     </Row>
