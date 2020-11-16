@@ -51,9 +51,9 @@ function Footer(): JSX.Element {
             </Row>
             <Row className="px-0 mx-lg-5 mt-5">
                 <Col className="px-0" xs={5} lg={3}>© Teradyne Inc. 1994-2019. All rights reserved.</Col>
-                <Col xs={2}>Sitemap</Col>
-                <Col xs={2}>Terms of Use</Col>
-                <Col xs={3}>Privacy Statement</Col>
+                <Col xs={1}>Sitemap</Col>
+                <Col xs={1}>Terms of Use</Col>
+                <Col xs={2}>Privacy Statement</Col>
             </Row>
         </Container>
     )
