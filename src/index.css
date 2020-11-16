@@ -29,7 +29,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
-body {
+html, body {
     font-family: "Gotham Narrow";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

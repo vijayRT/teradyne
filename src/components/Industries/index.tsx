@@ -19,10 +19,10 @@ function Industries(): JSX.Element {
                 <Col lg={8}>
                     <img className="shadow rounded" src={industry} width="100%"/>
                 </Col>
-                <Col lg={4} className="flex-nowrap">
-                    <Row className="h-100 align-items-center flex-nowrap">
-                        <Col xs={1}><a href="" onClick={(e) => e.preventDefault()}><FontAwesomeIcon size="2x" icon={faArrowLeft} color="#3cb4e5"/></a></Col>
-                        <Col className="d-flex flex-column flex-nowrap justify-content-center industrial-automation-content">
+                <Col lg={4} className="flex-nowrap px-0">
+                    <Row className="h-100 align-items-center flex-nowrap px-0">
+                        <Col className="px-0" xs={1}><a href="" onClick={(e) => e.preventDefault()}><FontAwesomeIcon size="2x" icon={faArrowLeft} color="#3cb4e5"/></a></Col>
+                        <Col className="d-flex flex-column flex-nowrap justify-content-center industrial-automation-content px-1">
                             <div className="d-flex text-center"><h2 className="font-weight-bold">Industrial Automation</h2></div>
                             <div className="d-flex industrial-automation-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere.</div>
                             <div className="d-flex industrial-automation-text"><Button className="explore-button" title="Learn More">EXPLORE THE INDUSTRIES WE SERVE</Button></div>
@@ -39,7 +39,7 @@ function Industries(): JSX.Element {
                                 <div className="d-flex"><span className="dot"></span></div>
                             </div>
                         </Col>
-                        <Col xs={1}><a href="" onClick={(e) => e.preventDefault()}><FontAwesomeIcon size="2x" icon={faArrowRight} color="#3cb4e5"/></a></Col>
+                        <Col className="px-0" xs={1}><a href="" onClick={(e) => e.preventDefault()}><FontAwesomeIcon size="2x" icon={faArrowRight} color="#3cb4e5"/></a></Col>
                     </Row>
                 </Col>
             </Row>
