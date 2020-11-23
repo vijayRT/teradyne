@@ -28,7 +28,7 @@ function Footer(): JSX.Element {
                 <Col xs={12} lg={6}>
                     <Row className="align-items-center">
                         <Col className="subscribe-text" xs={12} lg={{span: 3, offset: 1}}>
-                            Subscribe to our newsletter
+                            Subscribe to Vijay's newsletter
                         </Col>
                         <Col xs={12} lg={7}>
                             <Form>
